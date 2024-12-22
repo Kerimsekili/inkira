@@ -1,30 +1,40 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Card, CardContent } from "@/components/ui/card"
-import { Home, User, Building } from 'lucide-react'
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Card, CardContent } from "@/components/ui/card";
+import { Home, User, Building, LucideIcon } from "lucide-react";
 
 const steps = [
   {
     label: "Ev Sahibi",
     title: "Ev sahibi ve kiracı İnkira sistemini kullanmayı kabul eder.",
-    icon: Home
+    icon: Home,
   },
   {
     label: "Kiracı",
-    title: "Kiracı, İnkira sistemi üzerinden kredi kartı ile 1 yıllık kirayı öder.",
-    icon: User
+    title:
+      "Kiracı, İnkira sistemi üzerinden kredi kartı ile 1 yıllık kirayı öder.",
+    icon: User,
   },
   {
     label: "İnkira",
-    title: "İnkira, küçük banka komisyonunu ve piyasa koşullarına göre belirlenen kendi komisyonunu düşer ve kalan parayı ertesi gün toplu olarak ev sahibinin hesabına aktarır.",
-    icon: Building
+    title:
+      "İnkira, küçük banka komisyonunu ve piyasa koşullarına göre belirlenen kendi komisyonunu düşer ve kalan parayı ertesi gün toplu olarak ev sahibinin hesabına aktarır.",
+    icon: Building,
   },
-]
+];
 
-function ExpandableCard({ label, title, icon: Icon }: { label: string; title: string; icon: any }) {
-  const [isOpen, setIsOpen] = useState(false)
+function ExpandableCard({
+  label,
+  title,
+  icon: Icon,
+}: {
+  label: string;
+  title: string;
+  icon: LucideIcon;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <motion.div
@@ -43,7 +53,7 @@ function ExpandableCard({ label, title, icon: Icon }: { label: string; title: st
           <motion.div
             className="flex-grow"
             initial={false}
-            animate={{ height: isOpen ? 'auto' : '0' }}
+            animate={{ height: isOpen ? "auto" : "0" }}
           >
             <AnimatePresence>
               {isOpen && (
@@ -61,7 +71,7 @@ function ExpandableCard({ label, title, icon: Icon }: { label: string; title: st
         </CardContent>
       </Card>
     </motion.div>
-  )
+  );
 }
 
 export function HowInkiraWorks() {
@@ -78,9 +88,9 @@ export function HowInkiraWorks() {
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {steps.map((step) => (
-            <ExpandableCard 
-              key={step.label} 
-              label={step.label} 
+            <ExpandableCard
+              key={step.label}
+              label={step.label}
               title={step.title}
               icon={step.icon}
             />
@@ -88,6 +98,5 @@ export function HowInkiraWorks() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
