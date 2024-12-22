@@ -1,0 +1,9 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    {/* Stylized "in" symbol */}
+    <path d="M10 12h20v3H10zM10 19h20v3H10z" fill="currentColor"/>
+    {/* "KiRA" text */}
+    <path d="M40 8h4v16h-4zM44 16h12v-4H44zM58 8h4v16h-4zM66 8h16v4H66zM66 12h4v12h-4zM74 12h8v4h-8zM86 8h16v4H86zM86 12h4v12h-4z" fill="currentColor"/>
+  </g>
+</svg>
+
