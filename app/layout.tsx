@@ -27,6 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <link rel="icon" href="/images/5.png" type="image/x-icon" />
       <body className="min-h-screen">
         <SiteHeader />
         {children}

@@ -49,7 +49,7 @@ export function HeroSection() {
 
           {/* Image Section */}
           <div className="relative order-2 w-full">
-            <div className="relative w-full aspect-[3/4] max-w-[500px] mx-auto">
+            <div className="relative w-full aspect-[3/4] max-w-[1280px] mx-auto">
               <div className="absolute inset-0">
                 <Image
                   src="/images/10.png"

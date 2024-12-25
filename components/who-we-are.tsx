@@ -8,7 +8,7 @@ export function WhoWeAre() {
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="relative h-[400px] rounded-2xl overflow-hidden">
             <Image
-              src="/images/20.png"
+              src="/images/15.png"
               alt="İnkira Ekibi"
               fill
               className="object-cover"

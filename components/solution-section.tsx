@@ -3,11 +3,25 @@ import { Check, Home, Users, Building2 } from "lucide-react";
 
 export function SolutionSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-5 bg-white mt-16">
       <div className="container">
-        <h2 className="text-4xl font-bold text-center text-[#2D2D2D] mb-16">
-          Tüm paydaşlar için daha iyi bir çözüm
-        </h2>
+        <div className="flex justify-center">
+          <img
+            src="/images/3.png"
+            alt="Logo"
+            className="w-96 h-96 object-contain"
+          />
+        </div>
+
+        <div className="grid grid-cols-3 gap-12 mb-8 px-8">
+          <img
+            src="/images/7.png"
+            alt="Mülk Sahipleri"
+            className="w-4/5 mx-auto"
+          />
+          <img src="/images/8.png" alt="Kiracılar" className="w-4/5 mx-auto" />
+          <img src="/images/11.png" alt="Çözümler" className="w-4/5 mx-auto" />
+        </div>
 
         <div className="grid md:grid-cols-3 gap-6">
           <Card className="bg-gradient-to-br from-[#E4B7FF]/5 to-[#8C52FF]/5 border-none shadow-lg">
