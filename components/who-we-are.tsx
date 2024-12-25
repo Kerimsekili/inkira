@@ -35,7 +35,7 @@ export function WhoWeAre() {
                     Güvenilir Çözüm Ortağı
                   </h3>
                   <p className="text-[#666666]">
-                    Mülk sahipleri ve kiracılar için güvenilir, şeffaf ve
+                    Ev sahipleri ve kiracılar için güvenilir, şeffaf ve
                     yenilikçi çözümler sunuyoruz.
                   </p>
                 </div>

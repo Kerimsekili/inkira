@@ -13,7 +13,7 @@ export function HeroSection() {
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8 order-1">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
               <span className="text-white block mb-2">
-                Mülk sahipleri, kiracılar
+                Ev sahipleri, kiracılar
               </span>
               <span className="text-white block mb-2">
                 ve emlak uzmanlarını

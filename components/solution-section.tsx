@@ -16,7 +16,7 @@ export function SolutionSection() {
         <div className="grid grid-cols-3 gap-12 mb-8 px-8">
           <img
             src="/images/7.png"
-            alt="Mülk Sahipleri"
+            alt="Ev Sahipleri"
             className="w-4/5 mx-auto"
           />
           <img src="/images/8.png" alt="Kiracılar" className="w-4/5 mx-auto" />
@@ -31,7 +31,7 @@ export function SolutionSection() {
                   <Home className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-[#2D2D2D]">
-                  Mülk Sahipleri
+                  Ev Sahipleri
                 </h3>
               </div>
               <p className="text-[#666666] mb-6">
