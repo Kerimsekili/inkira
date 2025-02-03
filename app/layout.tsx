@@ -30,7 +30,9 @@ export default function RootLayout({
       <link rel="icon" href="/images/5.png" type="image/x-icon" />
       <body className="min-h-screen">
         <SiteHeader />
-        {children}
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
+          {children}
+        </div>
       </body>
     </html>
   );

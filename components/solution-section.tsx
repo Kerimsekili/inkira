@@ -35,18 +35,16 @@ export function SolutionSection() {
                 </h3>
               </div>
               <p className="text-[#666666] mb-6">
-                İnkira sayesinde kira gelirinizin yüksek enflasyon karşısında
-                değerini koruyacaksınız.
+                İNKİRA, kiracıların ödemelerini Kredi Kartı ile PEŞİN olarak
+                kabul eder ve ev sahiplerine toplu ödeme yapar. Bu sistem, hem
+                pratik hem de güvenilirdir
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-2">
-                  <Check className="h-5 w-5 text-[#8C52FF] mt-0.5" />
-                  <span className="text-[#666666]">
-                    İnkira sayesinde alacağınız toplu ödeme ile paranızı başka
-                    yatırım ortamlarında değerlendirebilirsiniz.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
+              <p className="text-[#666666] mb-6">
+                Geleceğin kira yönetimi sistemi olan İNKİRA ile siz de kira
+                gelirinizi güvence altına alın. Hem zamanınızı hem de finansal
+                gücünüzü kontrol edin.
+              </p>
+              {/* <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-[#8C52FF] mt-0.5" />
                   <span className="text-[#666666]">
                     İnkira sayesinde, yıllık kiranızı, inkiranın küçük hizmet
@@ -59,8 +57,7 @@ export function SolutionSection() {
                     Tam kapsamlı mülk yönetimi deneyimi: Kiralama işlemlerini
                     baştan sonra biz halledeceğiz.
                   </span>
-                </li>
-              </ul>
+                </li> */}
             </CardContent>
           </Card>
 
@@ -75,8 +72,14 @@ export function SolutionSection() {
                 </h3>
               </div>
               <p className="text-[#666666] mb-6">
-                Ağrısız kiraya merhaba deyin! İnkira ile bir yıllık kiranı kredi
-                kartı ile hiçbir komisyon ödemeden 12 taksitle ödeyebilirsin.
+                İNKİRA ile kira ödemeleriniz artık hem kolay hem de kazançlı.
+                Daha fazla esneklik, daha az stres ve daha çok fayda için
+                İNKİRA’yı tercih edin!
+              </p>
+              <p className="text-[#666666] mb-6">
+                Kiracılar, artık ödemelerini ev sahibine değil, doğrudan bankaya
+                yapar. Bu sistem, kiracıların ödeme stresini azaltırken yeni
+                avantajlar sunar.
               </p>
             </CardContent>
           </Card>
@@ -88,15 +91,18 @@ export function SolutionSection() {
                   <Building2 className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-[#2D2D2D]">
-                  Çözümler
+                  Emlakçılar
                 </h3>
               </div>
-              <p className="text-[#666666]">
-                Inkira, ev sahiplerinin bir yıllık kira gelirlerini enflasyon
-                karşısında erimeden peşin almalarına imkan tanıyan bir fintech
-                uygulamasıdır. Kiracılar da inkira sayesinde evden çıkarılma ya
-                da hukuksuz kira artışı baskısına maruz kalmadan evlerinde
-                güvenle ikamet edebilirler
+              <p className="text-[#666666] mb-6">
+                İNKİRA ile emlakçılıkta yeni bir döneme adım atın. Kümülatif
+                kazanç modelini benimseyin ve her yıl büyüyen düzenli bir gelir
+                elde edin.
+              </p>
+              <p className="text-[#666666] mb-6">
+                Bu yenilikçi platform sayesinde emlakçılar, ev sahibi ve
+                kiracıları İNKİRA üzerinden ödeme yapmaya ikna ettiklerinde, her
+                ödeme başına komisyon almaya devam ederler.
               </p>
             </CardContent>
           </Card>

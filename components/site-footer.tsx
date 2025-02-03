@@ -30,7 +30,7 @@ export function SiteFooter() {
                 İletişime Geçin
               </h3>
               <div className="space-y-2">
-                <p className="text-[#8C52FF] font-medium">+90 536 487 0845</p>
+                <p className="text-[#8C52FF] font-medium">+0212 706 7687</p>
                 <Link
                   href="mailto:merhaba@inkira.com"
                   className="block text-[#666666] hover:text-[#8C52FF]"
@@ -38,9 +38,9 @@ export function SiteFooter() {
                   merhaba@inkira.com
                 </Link>
                 <p className="text-[#666666]">
-                  Istanbul,
+                  Maslak Mah. Maslak Meydan Sk. Beybi Giz Plaza A Blok
                   <br />
-                  Turkey
+                  Sarıyer/İstanbul
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export function SiteFooter() {
             </div>
             <nav className="space-y-4">
               <div className="flex flex-wrap gap-4">
-                <Link
+                {/* <Link
                   href="/ev-sahibi"
                   className="text-[#8C52FF] hover:text-[#8C52FF]/80 text-sm"
                 >
@@ -92,7 +92,7 @@ export function SiteFooter() {
                   className="text-[#8C52FF] hover:text-[#8C52FF]/80 text-sm"
                 >
                   İletişim
-                </Link>
+                </Link> */}
                 <Link
                   href="/kullanim-sartlari"
                   className="text-[#8C52FF] hover:text-[#8C52FF]/80 text-sm"
@@ -104,6 +104,12 @@ export function SiteFooter() {
                   className="text-[#8C52FF] hover:text-[#8C52FF]/80 text-sm"
                 >
                   Gizlilik Politikası
+                </Link>
+                <Link
+                  href="/faq"
+                  className="text-[#8C52FF] hover:text-[#8C52FF]/80 text-sm"
+                >
+                  FAQ
                 </Link>
               </div>
               <DropdownMenu>

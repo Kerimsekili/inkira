@@ -39,8 +39,6 @@ export function SiteHeader() {
     { href: "/ev-sahibi", label: "Ev Sahibi", isScroll: false },
     { href: "/kiraci", label: "Kiracı", isScroll: false },
     { href: "/emlak-uzmani", label: "Emlak Uzmanı", isScroll: false },
-    { href: "/#who-we-are", label: "Biz Kimiz", isScroll: true },
-    { href: "/#contact", label: "Iletişim", isScroll: true },
   ];
 
   const handleNavClick = (
@@ -64,21 +62,25 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 w-full ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full ${
         isScrolled
-          ? "bg-gradient-to-r from-[#E4B7FF] to-[#8C52FF] shadow-md"
-          : "bg-transparent"
+          ? "bg-gradient-to-r from-[#E4B7FF] to-[#8C52FF] shadow-md h-16"
+          : "bg-transparent h-28"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="flex h-20 md:h-24 items-center justify-between py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-full">
+        <div
+          className={`flex items-center justify-between h-full transition-all duration-300`}
+        >
           <Link href="/" className="flex items-center">
             <Image
               src="/images/logo.png"
               alt="inKiRA Logo"
-              width={350}
-              height={100}
-              className="h-16 w-auto sm:h-20 md:h-24"
+              width={400}
+              height={120}
+              className={`transition-all duration-300 ${
+                isScrolled ? "h-10 w-auto" : "h-20 w-auto sm:h-24 md:h-28"
+              }`}
               priority
             />
           </Link>
@@ -89,7 +91,9 @@ export function SiteHeader() {
                 key={link.label}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link)}
-                className="text-white transition-colors hover:text-white/80"
+                className={`text-white transition-all duration-300 ${
+                  isScrolled ? "text-base" : "text-lg"
+                }`}
               >
                 {link.label}
               </Link>
@@ -98,14 +102,16 @@ export function SiteHeader() {
 
           <div className="hidden md:flex items-center space-x-4">
             <Button
-              className="bg-white text-[#8C52FF] hover:bg-white/90"
-              size="lg"
+              className={`bg-white text-[#8C52FF] hover:bg-white/90 transition-all duration-300 ${
+                isScrolled ? "h-9 px-4 text-sm" : "h-11 px-6 text-base"
+              }`}
             >
               Başla
             </Button>
             <Button
-              className="bg-white text-[#8C52FF] hover:bg-white/90"
-              size="lg"
+              className={`bg-white text-[#8C52FF] hover:bg-white/90 transition-all duration-300 ${
+                isScrolled ? "h-9 px-4 text-sm" : "h-11 px-6 text-base"
+              }`}
             >
               Giriş Yap
             </Button>

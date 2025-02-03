@@ -19,9 +19,9 @@ export function WhoWeAre() {
             <div className="space-y-4">
               <h2 className="text-4xl font-bold text-[#2D2D2D]">Biz Kimiz?</h2>
               <p className="text-lg text-[#666666] leading-relaxed">
-                Finans, pazarlama ve hukuk alanlarından çok değerli
-                profesyonellerden oluşan yetkin ve deneyimli ekibimizle sizlere
-                hizmet etmek için buradayız.
+                Finans, pazarlama ve hukuk alanlarından profesyonellerden oluşan
+                yetkin ve deneyimli ekibimizle sizlere hizmet etmek için
+                buradayız.
               </p>
             </div>
 
@@ -35,8 +35,8 @@ export function WhoWeAre() {
                     Güvenilir Çözüm Ortağı
                   </h3>
                   <p className="text-[#666666]">
-                    Ev sahipleri ve kiracılar için güvenilir, şeffaf ve
-                    yenilikçi çözümler sunuyoruz.
+                    Ev sahipleri, kiracılar ve emlakçılar için güvenilir, şeffaf
+                    ve yenilikçi çözümler sunuyoruz.
                   </p>
                 </div>
               </div>
