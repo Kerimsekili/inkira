@@ -30,8 +30,9 @@ const faqs = [
   {
     question:
       "İnkira ile kredi kartı bilgilerimin korunduğundan nasıl emin olabilirim?",
-    answer:
+    answer: [
       "İnkira, Türk bankacılık sistemi altyapısını ve 3D güvenli ödeme sistemini kullanmaktadır.",
+    ],
   },
   {
     question: "İnkira'da kredi kartı bilgilerim tutulur mu?",
@@ -45,8 +46,9 @@ const faqs = [
   },
   {
     question: "İnkira ile ev kiralamanın normal yöntemlerden farkı nedir?",
-    answer:
+    answer: [
       "İnkira sistemi üzerinden gerçekleştirilen işlemler de kiracı ve kiraya veren arasındaki ilişki bağlamında Türk Borçlar Kanunu hükümlerine tabiidir. İnkira'nın alışılagelmiş kiralama yöntemlerinden farkı, İnkira'nın kiraya verenin kira bedelini toplu bir şekilde elde etmesine olanak tanıyan bir pazar yeri / fintech uygulaması olmasıdır.",
+    ],
   },
   {
     question: "Ev sahibi kirasını ne zaman alır?",
