@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Check, Home, Users, Building2 } from "lucide-react";
+import { Home, Users, Building2 } from "lucide-react";
 
 export function SolutionSection() {
   return (

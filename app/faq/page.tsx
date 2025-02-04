@@ -35,12 +35,13 @@ const faqs = [
   },
   {
     question: "İnkira'da kredi kartı bilgilerim tutulur mu?",
-    answer: "Hayır. İnkira kredi kartı bilgilerinizi saklamaz.",
+    answer: ["Hayır. İnkira kredi kartı bilgilerinizi saklamaz."],
   },
   {
     question: "İnkira sistemini kullanmak için bir üst limit var mıdır?",
-    answer:
+    answer: [
       "İnkira sistemini kullanacak bir kişi birden çok evi kiraya verebilir ya da birden çok taşınmazı kiralayabilir. Herhangi bir üst limit bulunmamaktadır.",
+    ],
   },
   {
     question: "İnkira ile ev kiralamanın normal yöntemlerden farkı nedir?",
