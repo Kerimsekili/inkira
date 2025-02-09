@@ -48,7 +48,6 @@ export default function LandlordPage() {
                   </div>
                 </motion.div>
               </div>
-
               {/* Image Section */}
               <div className="relative order-2 w-full">
                 <div className="relative w-full aspect-[3/4] max-w-[1280px] mx-auto">
